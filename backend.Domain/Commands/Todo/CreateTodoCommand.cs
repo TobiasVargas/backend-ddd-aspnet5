@@ -9,7 +9,7 @@ using Flunt.Validations;
 
 namespace backend.Domain.Commands.Todo
 {
-    class CreateTodoCommand : Notifiable, ICommand
+    public class CreateTodoCommand : Notifiable, ICommand
     {
         // semelhante a um dto ou viewmodel
         public CreateTodoCommand() { }
