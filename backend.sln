@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend.Domain", "backend.Domain\backend.Domain.csproj", "{9EA579A6-9721-42FB-8357-5BAE31F32F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend.Domain", "backend.Domain\backend.Domain.csproj", "{9EA579A6-9721-42FB-8357-5BAE31F32F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend.Domain.Api", "backend.Domain.Api\backend.Domain.Api.csproj", "{AEC80F08-DE46-4E94-A06F-96EBA4E2C64B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend.Domain.Api", "backend.Domain.Api\backend.Domain.Api.csproj", "{AEC80F08-DE46-4E94-A06F-96EBA4E2C64B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend.Domain.Infra", "backend.Domain.Infra\backend.Domain.Infra.csproj", "{13AE6283-0869-45D0-97E1-BAE548314D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend.Domain.Infra", "backend.Domain.Infra\backend.Domain.Infra.csproj", "{13AE6283-0869-45D0-97E1-BAE548314D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend.Domain.Tests", "backend.Domain.Tests\backend.Domain.Tests.csproj", "{3102C868-85D2-4345-91DC-F769645A404C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend.Domain.Tests", "backend.Domain.Tests\backend.Domain.Tests.csproj", "{3102C868-85D2-4345-91DC-F769645A404C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AFA707C-BEA6-4B2B-9F6E-BCE2A3848005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9EA579A6-9721-42FB-8357-5BAE31F32F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +71,11 @@ Global
 		{3102C868-85D2-4345-91DC-F769645A404C}.Release|x64.Build.0 = Release|Any CPU
 		{3102C868-85D2-4345-91DC-F769645A404C}.Release|x86.ActiveCfg = Release|Any CPU
 		{3102C868-85D2-4345-91DC-F769645A404C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AFFA4E7-345E-45FA-8155-C09930B72794}
 	EndGlobalSection
 EndGlobal
