@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace backend.Domain.entities
+namespace backend.Domain.Entities
 {
     public abstract class Entity: IEquatable<Entity>
     {
